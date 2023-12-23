@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+ <div class="container">
+    <h1 id="app">Application Form</h1>
+    
+ </div>
+ <br>
+
+ <fieldset style="border: 2.5px solid blue;">
+    <legend><b>Personal Information</b></legend>
+    <label for="name">Name</label>
+    <input type="text" id="name">
+    <br><br>
+    <label for="mail">Email</label>
+    <input type="text" id="mail">
+    <br><br>
+    <label for="phn">Phone</label>
+    <input type="text" id="phn">
+    <br><br>
+    <label for="dte">Date of Birth</label>
+    <input type="date" id="dte">
+    <br><br>
+    <label for="chk">Gender</label>
+    <input type="radio"  name="male">Male
+    <input type="radio" name="male">Female
+    <label for="sel">Countary</label>
+<select id="sel">
+<option value="1">India</option>
+<option value="1">Canada</option>
+<option value="1">USA</option>
+<option value="1">Nepal</option>
+<option value="1">Russia</option>
+</select>
+ </fieldset>
+ <br>
+ <fieldset style="border: 2.5px solid blue;">
+    <legend><b>Address:</b></legend>
+    <label for="txt">Address</label>
+   <textarea name="text1" id="txt" rows="1"  cols="50"placeholder="Enter Complete Home address"></textarea>
+       <label for="city">City</label>
+       <input type="text" id="city">
+       <label for="state">state</label>
+       <input type="text" id="state">
+       <label for="code">Zip Code</label>
+       <input type="text" id="code">
+ </fieldset>
+ <fieldset style="border: 2.5px solid blue;">
+<legend><b>Other Information</b></legend>
+<label id="txt">Comments</label>
+<textarea name="text1"  id="txt" rows="10" cols="70" placeholder="Enter Your Additional Information"></textarea>
+<input type="checkbox" id="chkbx">
+<label for="chkbx">I agree for All the Filled Information</label>
+<br>
+<input type="submit" id="sub">
+ </fieldset>
+ 
+</body>
+</html>
