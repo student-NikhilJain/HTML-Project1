@@ -1,10 +1,6 @@
-# HTML-Project1
-Hello All ! This is my first step towards learning of MERN / Full stack web Development. Recently I completed my HTML which is a base in development journey
-
-This is a demo for git and github class.
-
-# teacher
-shraddha khapra
+# HTML/CSS Project1(Basic Form)
+Hello All This is my first Step in Journey of "FullSTACK MERN Development" This is a Basic HTML Form Page that I created and Here I apply <br> 
+ALl My Learnings of HTML and Basic CSS Designing By My mentor @Shraddha Khapra
 
 
 
